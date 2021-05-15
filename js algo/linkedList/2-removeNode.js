@@ -1,3 +1,5 @@
+const helper = require("./helpers/arraysAndNodes")
+
 /**
  */
 /**
@@ -28,52 +30,15 @@
 
     slowNode.next = slowNode.next.next
 
-
-
-    var res = nodeToArray(head)
-
-    return res
+    return head
 };
 
-var head
-var node
-
-for (const num of [1,2]) {
-
-    if(head == null) {
-        head = new ListNode(num)
-        node = head
-        continue
-    }
-
-    node.next = new ListNode(num)
-    node = node.next
-}
-
+var head = helper.arrayToNode([1,2,3,4])
 
 // ---------------TEST-----------------
 var res = removeNthFromEnd(head, 2)
 
-console.log(res)
-
-
-
-function ListNode(val, next) {
-    this.val = (val===undefined ? 0 : val)
-    this.next = (next===undefined ? null : next)
-}
-
-function nodeToArray(node) {
-    var arr = []
-    while(node.next != null) {
-        arr.push(node.val)
-        node = node.next
-    }
-
-    arr.push(node.val)
-
-    return arr
-}
+console.log(helper.nodeToArray(res))
 
 // ------------BEST ANSWER------------------
 // var removeNthFromEnd = function(head, n) {

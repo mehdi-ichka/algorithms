@@ -8,7 +8,7 @@
           "type": "node",
           "request": "launch",
           "name": "Launch Places",
-          "program": "${workspaceFolder}\\linkedList\\2-removeNode.js"
+          "program": "${workspaceFolder}\\dynamic\\1-climbStairs.js"
         }
       ]
 }
