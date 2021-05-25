@@ -1,0 +1,2 @@
+corecursion: (source wikipedia)
+ relates to generators (generator is a recursion without base case, acting like an infinite stream)
