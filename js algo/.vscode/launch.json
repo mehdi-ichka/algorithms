@@ -8,7 +8,7 @@
           "type": "node",
           "request": "launch",
           "name": "Launch Places",
-          "program": "${workspaceFolder}\\medium\\arrays\\5-longestPalindrom.js"
+          "program": "${workspaceFolder}\\medium\\dynamicProgramming\\4-longestSubsequence.js"
         }
       ]
 }

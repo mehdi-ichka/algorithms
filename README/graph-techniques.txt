@@ -1,0 +1,19 @@
+Backtracking:
+ - solve permutation problems
+ - brute force scan of the whole dataset
+ - use bounding function to eliminate invalid arrangements
+ - uses space state tree (tree of all possible arrangements)
+ - uses depth traversal
+
+DynamicProgramming:
+ - solve optimization problems (using precalculated values in memory-hash tables in most cases)
+
+GreedyMethod:
+ - solve maximizing problems
+
+Branch'nBound:
+ - solve minimizing problems
+ - uses space state tree (tree of all possible arrangements)
+ - uses upperBound and Cost to eliminate invalid arrangements
+ - uses level order traversal
+ - uses one of 3 the methods: LIFO, FIFO, MINIMAL COST
