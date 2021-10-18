@@ -51,6 +51,6 @@ var root = [3,9,20,null,null,15,7]
 
 root = H.arrayToTree(root)
 
-var res = maxDepthRec(root)
+var res = maxDepth(root)
 
 console.log(res)
